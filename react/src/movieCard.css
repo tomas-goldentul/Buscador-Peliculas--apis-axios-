@@ -1,0 +1,15 @@
+.movieGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 16px;
+  width: 100%;
+  margin: auto;
+  padding: 4px;
+  background-color:rgb(236, 236, 236);
+  border: 5px solid rgb(255, 217, 0);
+  border-radius: 30px;
+}
+img{
+  width: 100%;
+  border-radius: 25px;
+}

@@ -13,6 +13,7 @@ function MovieDetail(props) {
         <h3>{props.idioma}</h3>
         <h3>{props.pais}</h3>
         {props.puntajeIMDb && <h3>IMDb: {props.puntajeIMDb}</h3>}
+
       </div>
     </>
   );

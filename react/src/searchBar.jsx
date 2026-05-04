@@ -9,14 +9,16 @@ function SearchBar({ onSearch }) {
 
         if (onSearch) {
             onSearch(nombre)
+            
         }
     }
+    
     return (
         <div className="searchBar">
             <input type="text" placeholder="Ingresa el nombre de la pelicula" value={nombre} onChange={handleChange} />
-            <button onClick={handleClick}>Buscar</button>
+            <button onClick={handleClick}>Buscar</button>  
+            
         </div>
-
     )
 }
 export default SearchBar;   
