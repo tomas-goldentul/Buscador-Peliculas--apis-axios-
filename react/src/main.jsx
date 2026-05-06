@@ -31,7 +31,7 @@ function Main() {
 
       {peliculaSeleccionada ? (
         <>
-          <button onClick={handleBack}>Volver</button>
+          <button className="volver" onClick={handleBack}> Volver</button>
           <MovieDetail
             poster={peliculaSeleccionada.Poster}
             tituloCompleto={peliculaSeleccionada.Title}

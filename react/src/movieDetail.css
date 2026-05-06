@@ -1,0 +1,47 @@
+.detail {
+  width: 80%;
+  max-width: 900px;
+  margin: 40px auto;
+  display: flex;
+  gap: 40px;
+  background-color: #1a1a1a;
+  padding: 30px;
+  border-radius: 15px;
+  border-top: 4px solid rgb(255, 217, 0);
+}
+
+.detail img {
+  width: 250px;
+  height: 370px;
+  border-radius: 10px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.info {
+  flex: 1;
+}
+
+.detail h2 {
+  font-size: 32px;
+  margin: 0 0 25px 0;
+  color: white;
+}
+
+.detail h3 {
+  font-size: 14px;
+  margin: 12px 0 0 0;
+  color: #aaa;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.detail p {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #ccc;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #333;
+}

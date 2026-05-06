@@ -1,15 +1,47 @@
 .movieGrid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-  gap: 16px;
-  width: 100%;
-  margin: auto;
-  padding: 4px;
-  background-color:rgb(236, 236, 236);
-  border: 5px solid rgb(255, 217, 0);
-  border-radius: 30px;
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border-top: 4px solid rgb(255, 217, 0);
 }
-img{
-  width: 100%;
-  border-radius: 25px;
+
+.movieGrid img {
+  width: 100% !important;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+.movieGrid h2 {
+  font-size: 15px;
+  margin: 15px 12px 8px 12px;
+  color: white;
+  font-weight: bold;
+  line-height: 1.3;
+}
+
+.movieGrid h3 {
+  font-size: 12px;
+  margin: 0 12px 12px 12px;
+  color: rgb(255, 217, 0);
+  font-weight: normal;
+}
+
+.movieGrid button {
+  margin: 12px;
+  padding: 12px;
+  background-color: rgb(255, 217, 0);
+  color: #1a1a1a;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.movieGrid button:active {
+  opacity: 0.8;
 }
