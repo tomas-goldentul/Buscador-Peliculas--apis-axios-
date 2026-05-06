@@ -1,0 +1,19 @@
+.searchBar{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 10px;
+}
+.botonBusqueda{
+    padding: 2px;
+    background-color: red;
+    border-radius: 8px;
+}
+.ingresoPeli{
+    background-image: url("FondoBuscador.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

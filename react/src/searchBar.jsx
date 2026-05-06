@@ -1,4 +1,6 @@
 import { useState } from "react";
+import './searchBar.css'
+
 function SearchBar({ onSearch }) {
     const [nombre, setNombre] = useState('');
     const handleChange = (e) => {
@@ -15,8 +17,8 @@ function SearchBar({ onSearch }) {
     
     return (
         <div className="searchBar">
-            <input type="text" placeholder="Ingresa el nombre de la pelicula" value={nombre} onChange={handleChange} />
-            <button onClick={handleClick}>Buscar</button>  
+            <input class="ingresoPeli" type="text" placeholder="Ingresa el nombre de la pelicula" value={nombre} onChange={handleChange} />
+            <button class = "botonBusqueda" onClick={handleClick}>Buscar</button>  
             
         </div>
     )

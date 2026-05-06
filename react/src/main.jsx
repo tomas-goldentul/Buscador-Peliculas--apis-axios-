@@ -27,7 +27,7 @@ function Main() {
 
   return (
     <div>
-      <h1>Buscador de Películas</h1>
+      <h1 class="titulo">Buscador de Películas</h1>
 
       {peliculaSeleccionada ? (
         <>
