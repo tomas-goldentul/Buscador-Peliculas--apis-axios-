@@ -15,7 +15,7 @@ function ErrorMessage() {
   return (
     <div className="error-container">
       <h1 style={{ color: colors[color1] }}>=(</h1>
-      <p style={{ color: colors[color1] }}>Error... No se encontró la película</p>
+      <p style={{ color: colors[color1] }}>Error.. No se encontró la película</p>
     </div>
   );
 }
